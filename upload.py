@@ -1,1 +1,1 @@
-#!/usr/bin/pythonimport subprocesssubprocess.call(["git", "add",  "-A", "."])subprocess.call(["git", "commit", "-a", \				"--allow-empty-message", "-m", "\'\'"])proc = subprocess.call(["git", "push"], stdin=subprocess.PIPE)proc.stdin.write("ednelson")proc.stdin.flush()proc.stdin.write("nelson493")proc.stdin.flush()
+#!/usr/bin/pythonimport subprocesssubprocess.call(["git", "add",  "-A", "."])subprocess.call(["git", "commit", "-a", \				"--allow-empty-message", "-m", "\'\'"])subprocess.call(["git", "push"])
